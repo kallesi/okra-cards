@@ -93,16 +93,7 @@ function App() {
 
             <Navbar bg="light" expand="lg" className="mb-4">
                 <Container fluid="md">
-                    <Navbar.Brand href="#home">
-                        <img
-                            src="/okra.svg"
-                            alt="Okra Cards"
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top me-2"
-                        />
-                        Okra Cards
-                    </Navbar.Brand>
+                    <Navbar.Brand href="#home"></Navbar.Brand>
                     <Nav activeKey={currentView} onSelect={(key) => key && setCurrentView(key as 'directory' | 'file-select' | 'review')}>
                         <Nav.Item>
                             <Nav.Link eventKey="directory">Select Cards</Nav.Link>

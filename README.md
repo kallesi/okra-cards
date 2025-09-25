@@ -85,6 +85,11 @@ This will create a `dist` directory with the production-ready files that can be 
 - Vite as the build tool
 - File System Access API for local file operations
 - SM-2 algorithm for spaced repetition
+- Lucide React icons
+
+## Acknowledgements
+
+- Icons by [Lucide](https://lucide.dev/)
 
 ## Contributing
 
