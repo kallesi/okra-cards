@@ -94,14 +94,10 @@ This will create a `dist` directory with the production-ready files that can be 
 - SM-2 algorithm for spaced repetition
 - Lucide React icons
 
-## Acknowledgements
-
-- Icons by [Lucide](https://lucide.dev/)
-
 ## Contributing
 
-We welcome contributions to Okra Cards! Please see our contributing guidelines for more information on how to get started.
+This is a private project and I will not be accepting feature requests. MIT license so feel free to fork.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
