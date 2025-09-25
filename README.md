@@ -113,7 +113,3 @@ This is a personal project and I will not be accepting feature requests. However
 ## 📄 License
 
 This project is open source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
----
-
-Made with ❤️ for effective learning
