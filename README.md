@@ -2,7 +2,7 @@
 
 **Okra Cards** is an open-source flashcard application that implements spaced repetition algorithms to help you learn and retain information efficiently. Unlike proprietary solutions, Okra Cards works with your local markdown files and doesn't require external dependencies.
 
-Inspired by the Obsidian Spaced Repetition plugin, Okra Cards provides similar functionality without the need for proprietary software. Although not as feature-rich as the plugin, it offers independence from external tools and can be installed on any system with npm.
+Inspired by the [Obsidian Spaced Repetition plugin](https://github.com/st3v3nmw/obsidian-spaced-repetition), Okra Cards provides similar functionality without the need for proprietary software. Although not as feature-rich as the plugin, it offers independence from external tools and can be installed on any system with npm.
 
 Built with React and TypeScript, it offers a clean, intuitive interface for creating and reviewing flashcards from your own content.
 
