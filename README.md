@@ -2,6 +2,13 @@
 
 Okra Cards is an advanced flashcard application that implements spaced repetition algorithms similar to the popular Obsidian Spaced Repetition plugin. The app allows you to create and review flashcards from markdown files stored in a local folder, providing an efficient way to learn and retain information.
 
+## Screenshots
+
+![Screenshot 1](public/screenshots/screenshot1.png)
+![Screenshot 2](public/screenshots/screenshot2.png)
+![Screenshot 3](public/screenshots/screenshot3.png)
+![Screenshot 4](public/screenshots/screenshot4.png)
+
 ## Features
 
 - **Local folder integration**: Select a folder containing your markdown (.md) or text (.txt) files to use as flashcard sources
