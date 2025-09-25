@@ -1,6 +1,6 @@
 # Okra Cards
 
-Okra Cards is an advanced flashcard application that implements spaced repetition algorithms similar to the popular Obsidian Spaced Repetition plugin. The app allows you to create and review flashcards from markdown files stored in a local folder, providing an efficient way to learn and retain information.
+Okra Cards is an advanced flashcard application that implements spaced repetition algorithms similar to the popular Obsidian Spaced Repetition plugin and Anki flashcards. The app allows you to create and review flashcards from markdown files stored in a local folder, providing an efficient way to learn and retain information.
 
 ## Screenshots
 

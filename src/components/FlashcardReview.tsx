@@ -96,7 +96,11 @@ const FlashcardReview: React.FC<FlashcardReviewProps> = ({ cards, onReviewComple
                         <Card.Body className="p-4">
                             <Card.Text className="lead">
                                 {isAnswerVisible ? (
-                                    <span><Eye className="me-2" size={20} />{currentCard.back}</span>
+                                    <div>
+                                        <div>{currentCard.front}</div>
+                                        <hr className="my-3" />
+                                        <div>{currentCard.back}</div>
+                                    </div>
                                 ) : (
                                     <span><EyeOff className="me-2" size={20} />{currentCard.front}</span>
                                 )}
