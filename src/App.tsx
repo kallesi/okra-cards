@@ -91,16 +91,16 @@ function App() {
                 </div>
             )}
 
-            <Navbar bg="light" expand="lg" className="mb-4">
+            <Navbar bg="body" expand="lg" className="mb-4 border-bottom">
                 <Container fluid="md">
                     <Navbar.Brand href="#home"></Navbar.Brand>
-                    <Nav activeKey={currentView} onSelect={(key) => key && setCurrentView(key as 'directory' | 'file-select' | 'review')}>
+                    <Nav activeKey={currentView} onSelect={(key) => key && setCurrentView(key as 'directory' | 'file-select' | 'review')} className="me-auto">
                         <Nav.Item>
-                            <Nav.Link eventKey="directory">Select Cards</Nav.Link>
+                            <Nav.Link eventKey="directory">Select Folder</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link eventKey="file-select" disabled={Object.keys(filesWithFlashcards).length === 0}>
-                                Select File
+                                Select Set
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>

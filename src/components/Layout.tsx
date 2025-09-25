@@ -24,7 +24,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <div className="app-container">
             <div className="d-flex flex-column min-vh-100">
-                <header className="bg-primary text-white p-3">
+                <header className="navbar navbar-expand navbar-dark bg-body p-3">
                     <div className="container d-flex align-items-center justify-content-between">
                         <div className="d-flex align-items-center gap-2">
                             <img src="/okra.svg" alt="Okra Cards" width={32} height={32} className="me-2 okra-icon" />
@@ -32,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         </div>
                         <div>
                             <Dropdown align="end">
-                                <Dropdown.Toggle variant="light" size="sm" className="d-flex align-items-center">
+                                <Dropdown.Toggle variant="outline-secondary" size="sm" className="d-flex align-items-center">
                                     {getThemeIcon()}
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
@@ -57,7 +57,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </Container>
                 </main>
 
-                <footer className="bg-light p-3 mt-auto">
+                <footer className="navbar navbar-expand navbar-dark bg-body p-3 mt-auto">
                     <div className="container text-center text-muted">
                         <small><Sparkles size={16} className="me-1" />Okra Cards - Spaced Repetition Flashcards <span role="img" aria-label="sparkle">✨</span></small>
                     </div>

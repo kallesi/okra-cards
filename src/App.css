@@ -78,3 +78,51 @@
 .read-the-docs {
     color: #888;
 }
+
+/* Theme-adaptive styles for header and footer */
+header.navbar,
+footer.navbar {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+}
+
+/* Ensure proper contrast for text in header and footer */
+header.navbar h1,
+footer.navbar small {
+    color: var(--bs-body-color) !important;
+}
+
+/* Theme-adaptive styles for theme toggle button */
+[data-bs-theme="light"] .btn-outline-secondary {
+    color: var(--bs-dark);
+    border-color: var(--bs-gray-400);
+}
+
+[data-bs-theme="light"] .btn-outline-secondary:hover {
+    background-color: var(--bs-tertiary-bg);
+    border-color: var(--bs-gray-500);
+}
+
+[data-bs-theme="dark"] .btn-outline-secondary {
+    color: var(--bs-light);
+    border-color: var(--bs-gray-600);
+}
+
+[data-bs-theme="dark"] .btn-outline-secondary:hover {
+    background-color: var(--bs-tertiary-bg);
+    border-color: var(--bs-gray-500);
+}
+
+/* Ensure navigation links have proper colors */
+.navbar .nav-link {
+    color: var(--bs-body-color) !important;
+}
+
+.navbar .nav-link.disabled {
+    color: var(--bs-secondary-color) !important;
+}
+
+/* Visual distinction for the navigation bar */
+.navbar.border-bottom {
+    border-bottom: 1px solid var(--bs-border-color) !important;
+}
